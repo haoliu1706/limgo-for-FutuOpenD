@@ -6,8 +6,9 @@ https://dl.google.com/go/go1.10.3.windows-amd64.msi
 https://dl.google.com/go/go1.10.3.darwin-amd64.pkg
 
 IDE:liteide X34
-https://sourceforge.net/projects/liteide/files/x34/liteidex34.windows-qt5.9.5.zip/download
-https://sourceforge.net/projects/liteide/files/x34/liteidex34.macos-qt5.9.5.zip/download
+https://github.com/visualfc/liteide/releases/download/x34/liteidex34.windows-qt5.9.5.zip
+https://github.com/visualfc/liteide/releases/download/x34/liteidex34.macos-qt5.9.5.zip
+
 
 
 go get github.com/golang/protobuf/protoc-gen-go

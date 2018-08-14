@@ -25,25 +25,25 @@ limgo\example\main.go
 
 接口调用如下
 
-	// 3010 QotGetTicker
+	// 3010 QotGetTicker 获取逐笔 SZ SH HK US自行区分
 	limgo.Do("send.QotSub", lim, "SZ.300104", "Ticker", true)  // 3001 QotSub
 	limgo.Do("send.QotRegQotPush", lim, "SZ.300104", "Ticker") // 3002 QotRegQotPush
 	limgo.Do("send.QotGetTicker", lim)                         // get
 
-	// // 3004 QotGetBasicQot
+	// 3004 QotGetBasicQot
 	limgo.Do("send.QotSub", lim, "SZ.300104", "Basic", true)  // 3001 QotSub
 	limgo.Do("send.QotRegQotPush", lim, "SZ.300104", "Basic") // 3002 QotRegQotPush
 	limgo.Do("send.QotGetBasicQot", lim)                      // get
 
-	// // 3008 QotGetRT
+	// 3008 QotGetRT
 	limgo.Do("send.QotSub", lim, "SZ.300104", "RT", true)  // 3001 QotSub
 	limgo.Do("send.QotRegQotPush", lim, "SZ.300104", "RT") // 3002 QotRegQotPush
 	limgo.Do("send.QotGetRT", lim, "US.AAPL")              // get
 
-	// // 3002 QotGetOrderBook
+	// 3002 QotGetOrderBook
 	limgo.Do("send.QotSub", lim, "SZ.300104", "OrderBook", true)    // 3001 QotSub
 	limgo.Do("send.QotRegQotPush", lim, "SZ.300104", "OrderBook")   // 3002 QotRegQotPush
 	limgo.Do("send.QotGetOrderBook", lim, "SZ.300104", "OrderBook") // get
 
-	// 3003 QotGetSubInfo
+	// 3003 QotGetSubInfo 查询订阅信息
 	limgo.Do("send.QotGetSubInfo", lim)

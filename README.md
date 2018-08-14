@@ -6,8 +6,8 @@ https://dl.google.com/go/go1.10.3.windows-amd64.msi
 https://dl.google.com/go/go1.10.3.darwin-amd64.pkg
 
 IDE:liteide X34
-https://github.com/visualfc/liteide/releases/download/x34/liteidex34.windows-qt5.9.5.zip
-https://github.com/visualfc/liteide/releases/download/x34/liteidex34.macos-qt5.9.5.zip
+https://github.com/visualfc/liteide/releases/download/x34.1/liteidex34.1.windows-qt5.9.5.zip
+https://github.com/visualfc/liteide/releases/download/x34.1/liteidex34.1.macosx-qt5.9.5.zip
 
 
 
